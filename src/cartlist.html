@@ -1,0 +1,92 @@
+@@include('head.html', {"title": "Index"}) @@include('header.html') @@include('banner.html')
+<section class="main clearfix">
+    <div class="container">
+        <div class="product-catalog row cart-page">
+            <div class="col-lg-12">
+                <h3 class="page-header2"><i class="glyphicon glyphicon-shopping-cart"></i>&nbsp;DANH SÁCH GIỎ HÀNG</h3>
+                <p class="bg-note">Các sản phẩm đã đặt hiện tại</p>
+            </div>
+            <div class="col-lg-12">
+                <table class="table cart_table">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Thông tin sản phẩm</th>
+                            <th>Giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cart-catalog-item">
+                                <a href="productdetail.html"><img src="images/product01.png"></a>
+                            </td>
+                            <td><a href="productdetail.html">Sản phẩm thời trang Hàn</a></td>
+                            <td><span class="retail">700.000 ₫ </span></td>
+                            <td>
+                                <div class="quantity">
+                                    <div class="input-group bootstrap-touchspin">
+                                        <input type="text" class="form-control txt-quanlity" placeholder="1" value="1">
+                                    </div>
+                                </div>
+                            </td>
+                            <td><em class="total">700.000 ₫</em></td>
+                            <td>
+                                <a href="#" class="item-x"><i class="glyphicon glyphicon-remove"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="cart-catalog-item">
+                                <a href="productdetail.html"><img src="images/product02.png"></a>
+                            </td>
+                            <td><a href="productdetail.html">Sản phẩm thời trang Hàn</a></td>
+                            <td><span class="retail">700.000 ₫</span></td>
+                            <td>
+                                <div class="quantity">
+                                    <div class="input-group bootstrap-touchspin">
+                                        <input type="text" class="form-control txt-quanlity" placeholder="1" value="1">
+                                    </div>
+                                </div>
+                            </td>
+                            <td><em class="total">500,000 đ</em></td>
+                            <td>
+                                <a href="#" class="item-x"><i class="glyphicon glyphicon-remove"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="cart-catalog-item">
+                                <a href="productdetail.html"><img src="images/product06.png"></a>
+                            </td>
+                            <td><a href="productdetail.html">Sản phẩm thời trang Hàn</a></td>
+                            <td><span class="retail">700.000 ₫ </span></td>
+                            <td>
+                                <div class="quantity">
+                                    <div class="input-group bootstrap-touchspin">
+                                        <input type="text" class="form-control txt-quanlity" placeholder="1" value="1">
+                                    </div>
+                                </div>
+                            </td>
+                            <td><em class="total">700.000 ₫ </em></td>
+                            <td>
+                                <a href="#" class="item-x"><i class="glyphicon glyphicon-remove"></i></a>
+                            </td>
+                        </tr>
+                        <tr class="txt-total">
+                            <td colspan="4">Tổng tiền</td>
+                            <td><em class="total">700.000 ₫ </em></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>s
+            <div class="row step-to-buy">
+                <div class="col-md-6"> <a class="btn btn-default" href="product.html" title="">Mua thêm sản phẩm</a></div>
+                <div class="col-md-6"> <a class="btn btn-danger pull-right" href="cartlist2.html" title="">Xử lý đơn hàng</a></div>
+            </div>
+        </div>
+    </div>
+    @@include('footer.html')
+</section>
+<!-- main -->
+@@include('script.html')

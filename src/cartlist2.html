@@ -1,0 +1,81 @@
+@@include('head.html', {"title": "Index"}) @@include('header.html') @@include('banner.html')
+<section class="main clearfix">
+    <div class="container">
+        <div class="product-catalog row cart-page">
+            <div class="col-lg-12">
+                <h3 class="page-header2"><i class="glyphicon glyphicon-shopping-cart"></i>&nbsp;THÔNG TIN ĐẶT HÀNG</h3>
+                <p class="bg-note">Quý khách hàng vui lòng điền đầy đủ thông tin bên dưới</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-bookcart">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label">Email</label>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control col-md-4" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label">Họ &amp; Tên</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control col-md-4" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label">Điện thoại</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control col-md-4" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label">Người nhận</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control col-md-4" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label">Địa chỉ</label>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control col-md-4" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-4 control-label">Hình thức thanh toán</label>
+                                <div class="col-sm-6">
+                                    <select class="form-control">
+                                        <option>Tiền mặt khi nhận hàng</option>
+                                        <option>Chuyển khoản</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="from-infortransfer">
+                        <h3 class="title-form">bản tóm tắt đơn hàng</h3>
+                        <p><span class="txt-sum">Tổng số lượng sản phẩm đặt mua:</span> <span class="txt-sum-number"> 3</span></p>
+                        <p><span class="txt-sum">Tổng tiền cần thanh toán:    </span> <span class="txt-sum-number"> 1.090.000₫</span></p>
+                        <h3 class="title-form">Thông tin chuyển khoản</h3>
+                        <p><strong>1. Ngân Hàng  ACB Bank</strong> (Chi Nhánh - Quận 10)
+                            <br> Số TK : 103949219
+                            <br> Chủ TK: CAO THU ANH</p>
+                        <p><strong>
+2. Ngân Hàng  Sacombank</strong> (Chi Nhánh - Quận 10)
+                            <br> Số TK : 0600 2876 9999
+                            <br> Chủ TK: CAO THU ANH
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row step-to-buy">
+                <div class="col-md-6"> <a class="btn btn-default" href="cartlist.html" title="">Cập nhật đơn hàng </a></div>
+                <div class="col-md-6"> <a class="btn btn-danger pull-right" href="cartlist3.html" title="">Xác nhận đơn hàng</a></div>
+            </div>
+        </div>
+    </div>
+    @@include('footer.html')
+</section>
+<!-- main -->
+@@include('script.html')
